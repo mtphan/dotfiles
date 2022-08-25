@@ -1,0 +1,30 @@
+configuration {
+	modi: "power:rofi-powermenu";
+	location: 3;
+	yoffset: 20;
+	xoffset: -20;
+	show-icons: false;
+	disable-history: false;
+}
+
+@theme "catppuccin-mocha"
+
+* {
+	width: 170;
+	theme: #F38BA8;
+}
+
+
+
+window {
+	border: 1px;
+}
+
+listview {
+	margin: 20px 20px 10px 20px;
+	lines: 6;
+}
+
+button {
+	cursor: default;
+}
